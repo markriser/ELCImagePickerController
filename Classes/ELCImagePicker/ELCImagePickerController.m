@@ -50,7 +50,7 @@
     BOOL shouldSelect = previousCount < self.maximumImagesCount;
     if (!shouldSelect) {
         NSString *maxImagesCountString = [NSString stringWithFormat:@"%d", self.maximumImagesCount];
-        NSString *title = [NSString stringWithFormat:NSLocalizedString(@"only_n_photos", nil), maxImagesCountString];
+        NSString *title = [NSString stringWithFormat:NSLocalizedString(@"only_send_n_photos", nil), maxImagesCountString];
         [[[UIAlertView alloc] initWithTitle:title
                                     message:nil
                                    delegate:nil
