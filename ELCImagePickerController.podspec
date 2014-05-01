@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.name = 'ELCImagePickerController'
     s.version = '0.2.0mod'
     s.summary = 'A Multiple Selection Image Picker.'
-    s.homepage = 'https://github.com/elc/ELCImagePickerController'
+    s.homepage = 'https://github.com/markriser/ELCImagePickerController'
     s.license = {
       :type => 'MIT',
       :file => 'README.md'
